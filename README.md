@@ -12,8 +12,13 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=alexvadelgado_labcicd&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=alexvadelgado_labcicd)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=alexvadelgado_labcicd&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=alexvadelgado_labcicd)
 
+### SNYK
+
 [![Known Vulnerabilities](https://snyk.io/test/github/{alexvadelgado}/{labcicd}/badge.svg)](https://snyk.io/test/github/{alexvadelgado}/{labcicd})
 
+### COVERALL
+
+[![Coverage Status](https://coveralls.io/repos/github/alexvadelgado/labcicd/badge.svg?branch=main)](https://coveralls.io/github/alexvadelgado/labcicd?branch=main)
 
 
 Implementation of a Simple App with the next operations:
