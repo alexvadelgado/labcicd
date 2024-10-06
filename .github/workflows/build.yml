@@ -17,8 +17,6 @@ jobs:
     steps:
       #Check-out your repository under $GITHUB_WORKSPACE, so your workflow can access it
       - uses: actions/checkout@v1
-      - name: Update curl to fixed version
-        run: sudo apt-get install --only-upgrade curl=7.74.0-1.3+deb11u5
       #Set up JDK 11
       - name: Set up JDK
         uses: actions/setup-java@v1
@@ -47,8 +45,6 @@ jobs:
     steps:
       #Check-out your repository under $GITHUB_WORKSPACE, so your workflow can access it
       - uses: actions/checkout@v1
-      - name: Update curl to fixed version
-        run: sudo apt-get install --only-upgrade curl=7.74.0-1.3+deb11u5
       #Set up JDK 17
       - name: Set up JDK
         uses: actions/setup-java@v1
@@ -111,8 +107,6 @@ jobs:
     steps:
       #Check-out your repository under $GITHUB_WORKSPACE, so your workflow can access it
       - uses: actions/checkout@v1
-      - name: Update curl to fixed version
-        run: sudo apt-get install --only-upgrade curl=7.74.0-1.3+deb11u5
       #Set up JDK 11
       - name: Set up JDK
         uses: actions/setup-java@v1
